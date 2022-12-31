@@ -1,0 +1,128 @@
+body 
+{
+    background: linear-gradient(90deg, rgba(237,161,219,1) 0%, rgba(255,78,17,1) 35%, rgba(230,255,0,1) 100%);
+    background-color: transparent;
+    opacity: 1;
+    background-size: 400% 400%;
+    animation: gradient 9s ease infinite;
+}
+  
+@keyframes gradient 
+{
+    0% {
+        background-position: 0% 50%;
+      }
+    50% {
+        background-position: 100% 50%;
+      }
+    100% {
+        background-position: 0% 50%;
+      }
+}
+  
+.grow 
+{
+    transition: all .2s ease-in-out; 
+}
+  
+.grow:hover 
+{ 
+    transform: scale(1.1); 
+}
+  
+#container-for-albums
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 350px;
+    margin-left: 350px;
+    margin-bottom: 50px;
+}
+  
+#center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 3px 0px 8px #000000;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    height: 200px;
+}
+  
+.images
+{
+    box-shadow: 3px 0px 8px #000000;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+#X-100PRE-frame
+{
+    top: 25%;
+    left: 25%;
+    position: absolute;
+    z-index: 51;
+    display: none;
+    width: 50%;
+}
+
+#OASIS-frame
+{
+    top: 25%;
+    left: 25%;
+    position: absolute;
+    z-index: 52;
+    display: none;
+    width: 50%;
+}
+
+#YHLQMDLG-frame
+{
+    top: 25%;
+    left: 25%;
+    position: absolute;
+    z-index: 53;
+    display: none;
+    width: 50%;
+}
+
+#LAS-QUE-NO-IBAN-A-SALIR-frame
+{
+    top: 25%;
+    left: 25%;
+    position: absolute;
+    z-index: 54;
+    display: none;
+    width: 50%;
+}
+
+#EL-ULTIMO-TOUR-DEL-MUNDO-frame
+{
+    top: 25%;
+    left: 25%;
+    position: absolute;
+    z-index: 55;
+    display: none;
+    width: 50%;
+}
+
+#Un-Verano-Sin-Ti-frame
+{
+    top: 25%;
+    left: 25%;
+    position: absolute;
+    z-index: 56;
+    display: none;
+    width: 50%;
+}
+
+.frame
+{
+    border-radius: 10px;
+    box-shadow: 3px 0px 8px #000000;
+}
