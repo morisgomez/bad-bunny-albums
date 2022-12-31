@@ -4,7 +4,6 @@ function revealAlbum6 ()
   document.getElementById ("Un-Verano-Sin-Ti-frame").style.display = 'block';
   //document.getElementsByTagName ("body").style.backgroundColor = "black"; //how to make lightbox background?
   //document.getElementsByTagName ("body").style.opacity = "0"; //how to make lightbox background?
-
 }
 
 function hideAlbum6 ()
@@ -16,7 +15,6 @@ function hideAlbum6 ()
 function revealAlbum5 () 
 {
   document.getElementById ("EL-ULTIMO-TOUR-DEL-MUNDO-frame").style.display = 'block';
-
 }
 
 function hideAlbum5 ()
@@ -28,7 +26,6 @@ function hideAlbum5 ()
 function revealAlbum4 () 
 {
   document.getElementById ("LAS-QUE-NO-IBAN-A-SALIR-frame").style.display = 'block';
-
 }
 
 function hideAlbum4 ()
@@ -40,7 +37,6 @@ function hideAlbum4 ()
 function revealAlbum3 () 
 {
   document.getElementById ("YHLQMDLG-frame").style.display = 'block';
-
 }
 
 function hideAlbum3 ()
@@ -52,7 +48,6 @@ function hideAlbum3 ()
 function revealAlbum2 () 
 {
   document.getElementById ("OASIS-frame").style.display = 'block';
-
 }
 
 function hideAlbum2 ()
@@ -64,7 +59,6 @@ function hideAlbum2 ()
 function revealAlbum () 
 {
   document.getElementById ("X-100PRE-frame").style.display = 'block';
-
 }
 
 function hideAlbum ()
